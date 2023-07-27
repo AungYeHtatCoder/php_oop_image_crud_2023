@@ -1,0 +1,16 @@
+{
+  "name": "app/image_crud",
+  "autoload": {
+    "psr-4": {
+      "App\\ImageCrud\\": "src/Libs/",
+      "Helpers\\": "src/Helpers/"
+    }
+  },
+  "authors": [
+    {
+      "name": "AungYeHtatCoder",
+      "email": "aungyehtatcoder2021@gmail.com"
+    }
+  ],
+  "require": {}
+}
