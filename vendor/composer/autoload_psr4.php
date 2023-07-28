@@ -6,5 +6,8 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'App\\ImageCrud\\' => array($baseDir . '/src'),
+    'Psr\\Container\\' => array($vendorDir . '/psr/container/src'),
+    'Helpers\\' => array($baseDir . '/src/Helpers'),
+    'Faker\\' => array($vendorDir . '/fakerphp/faker/src/Faker'),
+    'App\\ImageCrud\\' => array($baseDir . '/src/Libs'),
 );
